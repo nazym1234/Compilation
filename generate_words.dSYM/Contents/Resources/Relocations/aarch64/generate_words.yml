@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     generate_words
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _nettoyer_chaine, symObjAddr: 0x0, symBinAddr: 0x100002DF4, symSize: 0x9C }
+  - { offsetInCU: 0x53, offset: 0x53, size: 0x8, addend: 0x0, symName: _nettoyer_chaine, symObjAddr: 0x0, symBinAddr: 0x100002DF4, symSize: 0x9C }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _lire_grammaire, symObjAddr: 0x9C, symBinAddr: 0x100002E90, symSize: 0x290 }
+  - { offsetInCU: 0x11F, offset: 0x11F, size: 0x8, addend: 0x0, symName: _decomposer_mot, symObjAddr: 0x32C, symBinAddr: 0x100003120, symSize: 0x12C }
+  - { offsetInCU: 0x17F, offset: 0x17F, size: 0x8, addend: 0x0, symName: _est_terminal, symObjAddr: 0x458, symBinAddr: 0x10000324C, symSize: 0x60 }
+  - { offsetInCU: 0x1A7, offset: 0x1A7, size: 0x8, addend: 0x0, symName: _trouver_productions, symObjAddr: 0x4B8, symBinAddr: 0x1000032AC, symSize: 0x144 }
+  - { offsetInCU: 0x223, offset: 0x223, size: 0x8, addend: 0x0, symName: _generer_mots_recursif, symObjAddr: 0x5FC, symBinAddr: 0x1000033F0, symSize: 0x3A8 }
+  - { offsetInCU: 0x3C8, offset: 0x3C8, size: 0x8, addend: 0x0, symName: _comparer_mots, symObjAddr: 0x9A4, symBinAddr: 0x100003798, symSize: 0x8C }
+  - { offsetInCU: 0x428, offset: 0x428, size: 0x8, addend: 0x0, symName: _generer_mots, symObjAddr: 0xA30, symBinAddr: 0x100003824, symSize: 0x2C0 }
+  - { offsetInCU: 0x4E8, offset: 0x4E8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xCF0, symBinAddr: 0x100003AE4, symSize: 0x198 }
+...

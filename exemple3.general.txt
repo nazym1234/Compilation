@@ -1,0 +1,4 @@
+S0 : A0 | B0
+A0 : C0aA0 | C0aC0 
+B0 : C0bB0 | C0bC0 
+C0 : aC0bC0 | bC0aC0 | E
